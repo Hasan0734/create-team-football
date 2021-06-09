@@ -1,0 +1,35 @@
+.header {
+    background-image: url(../../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.header nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.header nav .nav-link:hover {
+    background: orange;
+    border-radius: 6px;
+}
+
+.header .bg-overlay {
+    background: #040e429a;
+    height: 100%;
+}
+
+.content {
+    color: white;
+    height: 400px;
+}
+.content h1{
+    font-size: 80px;
+    color: #ffeb00;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.content h3{
+    color: #cfd4f1;
+}
