@@ -2,7 +2,7 @@
     background-image: url(../../images/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 730px;
 }
 
 .header nav .nav-link {
@@ -22,7 +22,7 @@
 
 .content {
     color: white;
-    height: 400px;
+    height: 90%;
 }
 .content h1{
     font-size: 80px;

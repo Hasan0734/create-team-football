@@ -1,9 +1,17 @@
 import React from 'react';
-
-const Player = () => {
+import './Player.css'
+const Player = (props) => {
+    const {name, img} = props.player
     return (
-        <div>
-            <h1>This is player</h1>
+        <div className="col">
+            <div className='card h-50'>
+               
+               <img className="card-img-top h-75" src={img} alt="" />
+             
+                <div className="card-body"> 
+                <h3>{name}</h3>
+                </div>
+            </div>
         </div>
     );
 };
