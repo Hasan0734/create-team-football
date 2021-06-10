@@ -24,7 +24,7 @@ const Players = () => {
           <h1 className="text-center">All Players</h1>
           <div className="row  row-cols-1 row-cols-md-3 g-4">
             {players.map((player) => (
-              <Player player={player} handleAddToTeam={handleAddToTeam}></Player>
+              <Player player={player} handleAddToTeam={handleAddToTeam} key ={player.id}></Player>
             ))}
           </div>
       );
