@@ -13,7 +13,7 @@ const Player = (props) => {
             <p>Country: {country}</p>
             <p>Age: {age}</p>
           </div>
-          <div className="d-flex justify-content-between">
+          <div>
             <p>Current Team: {currentTeam}</p>
             <p>Salary: ${salary}</p>
           </div>

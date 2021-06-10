@@ -1,10 +1,22 @@
+.all-player{
+    background: url(../../images/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .players-container{
     width: 70%;
-    margin-left: 5px;
+    margin-left: 2%;
 }
 .players-container h1{
+    margin-top: 50px;
     font-size: 48px;
-    color: rgb(33 34 127);
+    color: #fff;
     font-weight: 500;
     margin-bottom: 50px;
+}
+.team-container{
+    margin-top: 155px;
+    margin-left: 50px;
+    width: 23%;
 }

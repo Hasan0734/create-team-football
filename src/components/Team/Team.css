@@ -1,0 +1,14 @@
+.selected-player {
+    border: 1px solid lightblue;
+    padding: 10px;
+    background: linear-gradient( 180deg, #d00d67, #202f9c);
+    color: white;
+}
+.selected-player h4 {
+    text-decoration: underline;
+}
+.selected-player ol li:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
