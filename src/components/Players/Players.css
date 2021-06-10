@@ -1,3 +1,10 @@
 .players-container{
-    color: red;
+    width: 70%;
+    margin-left: 5px;
+}
+.players-container h1{
+    font-size: 48px;
+    color: rgb(33 34 127);
+    font-weight: 500;
+    margin-bottom: 50px;
 }

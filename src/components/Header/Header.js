@@ -5,7 +5,7 @@ const Header = () => {
         <div className="header">
             <div className="bg-overlay">
                 <nav className="navbar">
-                    <div className="container">
+                    <div className="container-fluid">
                         <a href="/home" class="navbar-brand fs-2 text-light">CreatTeam</a>
                         <div className="d-flex">
                             <a className="nav-link" href="/home">Home</a>
@@ -14,7 +14,7 @@ const Header = () => {
                         </div>
                     </div>
                 </nav>
-                <div className="content container d-flex align-items-center">
+                <div className="content container-fluid d-flex align-items-center">
                     <div className="w-75">
                         <h1>Hello, Welcome</h1>
                         <br />

@@ -1,3 +1,9 @@
-.img-container{
-
+.card-img-top{
+    height: 350px;
+    padding: 10px;
+}
+.card-title{
+    font-size: 36px;
+    color: rgb(33 34 127);
+    font-weight: 700;
 }
